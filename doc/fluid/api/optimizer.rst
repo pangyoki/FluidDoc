@@ -1,5 +1,5 @@
 ===============
-paddle.optimizer
+fluid.optimizer
 ===============
 
 ..  toctree::

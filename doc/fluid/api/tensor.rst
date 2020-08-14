@@ -66,7 +66,6 @@ paddle.tensor
     tensor/mean.rst
     tensor/min.rst
     tensor/mm.rst
-    tensor/mul.rst
     tensor/multiplex.rst
     tensor/norm.rst
     tensor/not_equal.rst
@@ -92,6 +91,7 @@ paddle.tensor
     tensor/scatter.rst
     tensor/scatter_nd.rst
     tensor/scatter_nd_add.rst
+    tensor/search.rst
     tensor/shape.rst
     tensor/shard_index.rst
     tensor/shuffle.rst
