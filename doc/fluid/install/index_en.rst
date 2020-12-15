@@ -242,11 +242,11 @@ This section describes how to use pip to install.
 
 9. For more information to help, please refer to:
 
-    `Install on Linux via pip <frompip_en/linux-pip_en.html>`_
+    `Install on Linux via pip <pip/linux-pip_en.html>`_
 
-    `Install on MacOS via pip <frompip_en/macos-pip_en.html>`_
+    `Install on MacOS via pip <pip/macos-pip_en.html>`_
 
-    `Install on Windows via pip <frompip_en/windows-pip_en.html>`_
+    `Install on Windows via pip <pip/windows-pip_en.html>`_
 
 
 The second way to install: use Conda to install
@@ -410,11 +410,11 @@ This section describes how to use Conda to install.
 
 11. For more information to help, please refer to:
 
-    `Install on Linux via conda <fromconda_en/linux-conda_en.html>`_
+    `Install on Linux via conda <conda/linux-conda_en.html>`_
 
-    `Install on MacOS via conda <fromconda_en/macos-conda_en.html>`_
+    `Install on MacOS via conda <conda/macos-conda_en.html>`_
 
-    `Install on Windows via <fromconda_en/windows-conda_en.html>`_
+    `Install on Windows via <conda/windows-conda_en.html>`_
 
 
 The third way to install: use Docker to install
@@ -520,7 +520,7 @@ If you want to use `docker <https://www.docker.com>`_ to install PaddlePaddle, y
 
 5. For more help, refer to:
 
-   `use Docker to install <fromdocker_en/docker_en.html>`_
+   `use Docker to install <docker/docker_en.html>`_
 
 	
 The fourth way to install: compile and install with source code

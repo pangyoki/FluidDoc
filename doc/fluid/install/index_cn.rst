@@ -239,11 +239,11 @@
 
 9. 更多帮助信息请参考：
 
-    `Linux下的PIP安装 <frompip/linux-pip.html>`_
+    `Linux下的PIP安装 <pip/linux-pip.html>`_
 
-    `MacOS下的PIP安装 <frompip/macos-pip.html>`_
+    `MacOS下的PIP安装 <pip/macos-pip.html>`_
 
-    `Windows下的PIP安装 <frompip/windows-pip.html>`_
+    `Windows下的PIP安装 <pip/windows-pip.html>`_
 
 
 第二种安装方式：使用 conda 安装
@@ -403,11 +403,11 @@
 
 11. 更多帮助信息请参考：
 
-    `Linux下的Conda安装 <fromconda/linux-conda.html>`_
+    `Linux下的Conda安装 <conda/linux-conda.html>`_
 
-    `MacOS下的Conda安装 <fromconda/macos-conda.html>`_
+    `MacOS下的Conda安装 <conda/macos-conda.html>`_
 
-    `Windows下的Conda安装 <fromconda/windows-conda.html>`_
+    `Windows下的Conda安装 <conda/windows-conda.html>`_
 
 
 第三种安装方式：使用 docker 安装
@@ -512,7 +512,7 @@
 
 5. 更多帮助信息请参考：
 
-   `使用Docker安装 <fromdocker/docker.html>`_
+   `使用Docker安装 <docker/docker.html>`_
 
 	
 第四种安装方式：使用源代码编译安装
