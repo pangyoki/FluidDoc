@@ -64,7 +64,7 @@ There is one compilation methods in Windows system:
     cd Paddle
     ```
 
-3. Switch to a more stable release branch for compilation:
+3. Switch to `develop` branch for compilation:
 
     ```
     git checkout [name of the branch]

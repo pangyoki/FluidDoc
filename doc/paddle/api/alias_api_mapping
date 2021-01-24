@@ -1,3 +1,4 @@
+paddle.tensor.math.conj	paddle.conj,paddle.tensor.conj
 paddle.tensor.math.divide	paddle.divide,paddle.tensor.divide
 paddle.fluid.layers.gather_tree	paddle.nn.functional.gather_tree
 paddle.fluid.layers.temporal_shift	paddle.nn.functional.temporal_shift
@@ -59,6 +60,7 @@ paddle.tensor.search.index_select	paddle.index_select,paddle.tensor.index_select
 paddle.tensor.manipulation.squeeze	paddle.squeeze,paddle.tensor.squeeze
 paddle.nn.functional.common.interpolate	paddle.nn.functional.interpolate
 paddle.fluid.layers.cos	paddle.cos,paddle.tensor.cos,paddle.tensor.math.cos
+paddle.fluid.layers.cosh	paddle.cosh,paddle.tensor.cosh,paddle.tensor.math.cosh
 paddle.fluid.layers.tan	paddle.tan,paddle.tensor.tan,paddle.tensor.math.tan
 paddle.nn.functional.activation.tanhshrink	paddle.nn.functional.tanhshrink
 paddle.fluid.dygraph.base.grad	paddle.grad,paddle.framework.grad
@@ -71,7 +73,7 @@ paddle.nn.layer.activation.Hardswish	paddle.nn.Hardswish
 paddle.nn.layer.activation.Hardtanh	paddle.nn.Hardtanh
 paddle.nn.layer.activation.LogSigmoid	paddle.nn.LogSigmoid
 paddle.nn.layer.activation.Maxout	paddle.nn.Maxout
-paddle.nn.layer.activation.PRelu	paddle.nn.PReLU
+paddle.nn.layer.activation.PReLU	paddle.nn.PReLU
 paddle.nn.layer.activation.Tanh	paddle.nn.Tanh
 paddle.nn.layer.activation.SELU	paddle.nn.SELU
 paddle.nn.layer.activation.Swish	paddle.nn.Swish
@@ -86,6 +88,7 @@ paddle.device.set_device	paddle.set_device
 paddle.device.get_cudnn_version	paddle.get_cudnn_version
 paddle.device.XPUPlace	paddle.XPUPlace
 paddle.device.is_compiled_with_xpu	paddle.is_compiled_with_xpu
+paddle.fluid.framework.device_guard	paddle.static.device_guard
 paddle.fluid.framework.is_compiled_with_cuda	paddle.is_compiled_with_cuda,paddle.device.is_compiled_with_cuda
 paddle.fluid.layers.log_loss	paddle.nn.functional.log_loss,paddle.nn.functional.loss.log_loss
 paddle.fluid.layers.softmax_with_cross_entropy	paddle.nn.functional.softmax_with_cross_entropy,paddle.nn.functional.loss.softmax_with_cross_entropy
@@ -189,7 +192,6 @@ paddle.fluid.param_attr.ParamAttr	paddle.ParamAttr,paddle.framework.ParamAttr
 paddle.fluid.initializer.XavierInitializer	paddle.fluid.initializer.Xavier
 paddle.nn.initializer.xavier.XavierNormal	paddle.nn.initializer.XavierNormal
 paddle.nn.initializer.xavier.XavierUniform	paddle.nn.initializer.XavierUniform
-paddle.fluid.dygraph.parallel.prepare_context	paddle.distributed.prepare_context
 paddle.tensor.math.pow	paddle.pow,paddle.tensor.pow
 paddle.fluid.input.embedding	paddle.static.nn.embedding
 paddle.fluid.clip.ClipGradByGlobalNorm	paddle.nn.ClipGradByGlobalNorm,paddle.nn.clip.ClipGradByGlobalNorm
@@ -210,6 +212,7 @@ paddle.fluid.executor.global_scope	paddle.static.global_scope
 paddle.fluid.param_attr.WeightNormParamAttr	paddle.static.WeightNormParamAttr
 paddle.tensor.math.addmm	paddle.addmm,paddle.tensor.addmm
 paddle.fluid.framework.Program	paddle.static.Program
+paddle.fluid.framework.Variable	paddle.static.Variable
 paddle.fluid.layers.round	paddle.round,paddle.tensor.round,paddle.tensor.math.round
 paddle.tensor.creation.ones	paddle.ones,paddle.tensor.ones
 paddle.tensor.random.randint	paddle.randint,paddle.tensor.randint
@@ -437,7 +440,7 @@ paddle.hapi.callbacks.ReduceLROnPlateau	paddle.callbacks.ReduceLROnPlateau
 paddle.hapi.callbacks.LRScheduler	paddle.callbacks.LRScheduler
 paddle.hapi.callbacks.EarlyStopping	paddle.callbacks.EarlyStopping
 paddle.hapi.model_summary.summary	paddle.summary
-paddle.hapi.model_flops.flops	paddle.flops
+paddle.hapi.dynamic_flops.flops	paddle.flops
 paddle.vision.models.resnet.ResNet	paddle.vision.models.ResNet,paddle.vision.ResNet
 paddle.vision.models.resnet.resnet18	paddle.vision.models.resnet18,paddle.vision.resnet18
 paddle.vision.models.resnet.resnet34	paddle.vision.models.resnet34,paddle.vision.resnet34
@@ -490,6 +493,7 @@ paddle.vision.transforms.functional.normalize	paddle.vision.transforms.normalize
 paddle.vision.datasets.folder.DatasetFolder	paddle.vision.datasets.DatasetFolder,paddle.vision.DatasetFolder
 paddle.vision.datasets.folder.ImageFolder	paddle.vision.datasets.ImageFolder,paddle.vision.ImageFolder
 paddle.vision.datasets.mnist.MNIST	paddle.vision.datasets.MNIST,paddle.vision.MNIST
+paddle.vision.datasets.mnist.FashionMNIST	paddle.vision.datasets.FashionMNIST,paddle.vision.FashionMNIST
 paddle.vision.datasets.flowers.Flowers	paddle.vision.datasets.Flowers,paddle.vision.Flowers
 paddle.vision.datasets.cifar.Cifar10	paddle.vision.datasets.Cifar10,paddle.vision.Cifar10
 paddle.vision.datasets.cifar.Cifar100	paddle.vision.datasets.Cifar100,paddle.vision.Cifar100
@@ -546,5 +550,7 @@ paddle.nn.layer.common.UpsamplingNearest2D	paddle.nn.UpsamplingNearest2D,paddle.
 paddle.fluid.initializer.set_global_initializer	paddle.nn.initializer.set_global_initializer
 paddle.fluid.io.load_program_state	paddle.static.load_program_state
 paddle.fluid.io.set_program_state	paddle.static.set_program_state
+paddle.tensor.attribute.real	paddle.real,paddle.tensor.real
+paddle.tensor.attribute.imag	paddle.imag,paddle.tensor.imag
 paddle.fluid.layers.BeamSearchDecoder	paddle.nn.BeamSearchDecoder
 paddle.fluid.layers.dynamic_decode	paddle.nn.dynamic_decode
